@@ -1,5 +1,7 @@
 import Head from "next/head";
 import { ReactNode } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout: React.FC<ReactNode> = ({ children }) => {
   return (
@@ -9,7 +11,9 @@ const Layout: React.FC<ReactNode> = ({ children }) => {
         {/* 共通のメタデータなどはここに記載 */}
       </Head>
 
+      <Header></Header>
       <main>{children}</main>
+      <Footer></Footer>
     </>
   );
 };
