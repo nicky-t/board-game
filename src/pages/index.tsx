@@ -4,12 +4,12 @@ import Layout from "../components/Layout/Layout";
 
 const Home: NextPage = () => {
   return (
-    <Layout>
+    <>
       <div>ボードゲーム!</div>
       <Link href="/OseroPage">
         <a>Osero</a>
       </Link>
-    </Layout>
+    </>
   );
 };
 
