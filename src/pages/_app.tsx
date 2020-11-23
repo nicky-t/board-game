@@ -5,6 +5,7 @@ import { StylesProvider } from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Layout from "../components/Layout/Layout";
 import theme from "../styles/theme";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {

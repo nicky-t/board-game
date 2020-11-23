@@ -1,7 +1,6 @@
 .header {
   width: 100vw;
   height: 60px;
-  box-shadow: 1px 0 4px #999;
 }
 
 .container {
@@ -15,7 +14,16 @@
   line-height: 60px;
   width: 300px;
   height: 100%;
-  font-size: 40px;
+  font-size: 32px;
+}
+
+.titleLetter {
+  color: rgb(61, 60, 60);
+  letter-spacing: -2px;
+}
+
+.titleLetter:valid {
+  color: rgb(61, 60, 60);
 }
 
 .lists {

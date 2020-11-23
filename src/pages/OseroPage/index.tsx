@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "../../components/Layout/Layout";
+import Osero from "../../components/Games/Osero/Osero";
 
 const OseroPage = () => {
   return (
@@ -8,6 +8,7 @@ const OseroPage = () => {
       <Link href="/">
         <a>Home</a>
       </Link>
+      <Osero />
     </>
   );
 };
