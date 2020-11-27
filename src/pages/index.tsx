@@ -1,5 +1,16 @@
-function HomePage() {
-  return <div>Welcome to Next.js!</div>;
-}
+import { NextPage } from "next";
+import Link from "next/link";
+import Layout from "../components/Layout/Layout";
 
-export default HomePage;
+const Home: NextPage = () => {
+  return (
+    <>
+      <div>ボードゲーム!</div>
+      <Link href="/OseroPage">
+        <a>Osero</a>
+      </Link>
+    </>
+  );
+};
+
+export default Home;
